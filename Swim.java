@@ -7,8 +7,4 @@ public interface Swim {
     int swimUp(int meters);
 
     void getOut();
-
-    default void glide(){
-        System.out.println("glides into the air");
-    };
 }
